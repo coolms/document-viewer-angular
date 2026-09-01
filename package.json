@@ -1,7 +1,6 @@
 {
   "name": "@coolms/document-viewer-angular",
-  "version": "0.1.0",
-  "private": true,
+  "version": "2.0.0-alpha.1",
   "description": "The CoolMS in-browser document viewer: a registry-backed dispatcher that reads the server viewer manifest and mounts the right component, plus the DOCX viewer.",
   "license": "MIT",
   "author": {
@@ -13,8 +12,8 @@
     "@angular/cdk": "^22.0.0",
     "@angular/common": "^22.0.0",
     "@angular/core": "^22.0.0",
-    "@coolms/core-angular": "^0.2.0",
-    "@coolms/ui-angular": "^0.1.0",
+    "@coolms/core-angular": "^2.0.0-alpha.1",
+    "@coolms/ui-angular": "^2.0.0-alpha.1",
     "@ngxs/store": "^22.0.0",
     "rxjs": "^7.8.0"
   },
@@ -47,5 +46,8 @@
     "tslib": "^2.3.0",
     "typescript": "^6.0.0",
     "typescript-eslint": "^8.33.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

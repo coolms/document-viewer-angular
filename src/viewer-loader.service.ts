@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 /**
  * Cached promise wrapper around the dynamic `import()` of the docx
- * preview library. ESM module → kept lazy so the initial admin bundle
+ * preview library. ESM module -> kept lazy so the initial admin bundle
  * stays unaffected for users who never open a DOCX viewer.
  *
  * F.7 retired the `loadPdfJs()` helper here — the PDF viewer now

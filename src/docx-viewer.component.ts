@@ -189,7 +189,7 @@ export class DocxViewerComponent {
         try {
             const docxPreview = await this.loader.loadDocxPreview();
             // Route through HttpClient so authInterceptor attaches the
-            // Bearer token and handles 401 → refresh transparently.
+            // Bearer token and handles 401 -> refresh transparently.
             const blob = await firstValueFrom(
                 this.http
                     .get(url, { responseType: 'blob' })
