@@ -118,7 +118,7 @@ export interface DocxProfileConfig {
             color: var(--cms-text-muted);
         }
         .cms-docx-viewer__error {
-            color: var(--cms-danger);
+            color: var(--cms-danger-text);
         }
         .cms-docx-viewer__container {
             /*
@@ -129,7 +129,7 @@ export interface DocxProfileConfig {
              * margin and pushed the page far below the toolbar.
              */
             padding: 8px var(--cms-content-padding);
-            background: var(--cms-border-light, #f1f3f5);
+            background: var(--cms-border-light, #f0f2f5);
         }
     `],
 })
