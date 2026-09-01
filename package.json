@@ -1,6 +1,6 @@
 {
   "name": "@coolms/document-viewer-angular",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "The CoolMS in-browser document viewer: a registry-backed dispatcher that reads the server viewer manifest and mounts the right component, plus the DOCX viewer.",
   "license": "MIT",
   "author": {
