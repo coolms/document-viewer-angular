@@ -20,7 +20,7 @@ import { ViewerComponentRegistry } from './viewer-component-registry';
  *   3. Mounts the resolved component via `NgComponentOutlet`, passing
  *      `url` + the matching profile's `config` blob through.
  *
- * Falls back to a small "unsupported" surface when no viewer matches —
+ * Falls back to a small "unsupported" surface when no viewer matches --
  * either the format has no provider or the SPA package wasn't
  * registered at bootstrap.
  */
