@@ -9,7 +9,7 @@ import { ViewerHostComponent } from './viewer-host.component';
  * delegates to the host and falls back to a download link when no
  * provider in the viewer manifest claims the MIME type.
  *
- * New consumers should use `<cms-viewer-host>` directly — the wrapper
+ * New consumers should use `<cms-viewer-host>` directly -- the wrapper
  * is kept so call sites that pre-date F.7's federation work don't have
  * to migrate immediately.
  */

@@ -7,7 +7,7 @@
  * format module's frontend package (e.g. `@coolms/pdf`) registers
  * its component during `provideAppInitializer`.
  *
- * The DOCX viewer stays here for now — the Word module's frontend
+ * The DOCX viewer stays here for now -- the Word module's frontend
  * extraction is deferred. The PDF viewer moved to `@coolms/pdf`.
  */
 export { ViewerComponentRegistry } from './viewer-component-registry';

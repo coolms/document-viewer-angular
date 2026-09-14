@@ -154,7 +154,7 @@ export class ViewerModalComponent {
     constructor() {
         // ESC in fullscreen exits fullscreen first. CDK Dialog has its
         // own ESC-to-close handler wired through the overlay keyboard
-        // dispatcher — it fires alongside (not after) our coordinator,
+        // dispatcher -- it fires alongside (not after) our coordinator,
         // so we toggle `disableClose` on the DialogRef while fullscreen
         // is on. The coordinator handler then exits fullscreen; the
         // effect cleanup restores disableClose so the next ESC closes
