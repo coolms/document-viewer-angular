@@ -22,7 +22,7 @@ import { ViewerLoaderService } from './viewer-loader.service';
  * refresh-on-401), hands it to `docx-preview` for client-side
  * rendering inside a scrollable container.
  *
- * F.7 added the `profile` input for federation parity with the PDF
+ * The viewer federation added the `profile` input for parity with the PDF
  * viewer. The docx-preview library has limited UI controls, so the
  * profile only drives the toolbar's visibility today; consumers can
  * pick `compact` / `preview` to hide the download / print row when

@@ -1,7 +1,7 @@
 /**
  * Public surface for the in-browser document viewer infrastructure.
  *
- * F.7 turned this into the dispatcher home: `<cms-viewer-host>` reads
+ * Viewer federation turned this into the dispatcher home: `<cms-viewer-host>` reads
  * the backend viewer manifest, looks up the right Angular component
  * via `ViewerComponentRegistry`, and mounts it dynamically. Each
  * format module's frontend package (e.g. `@coolms/pdf`) registers

@@ -17,7 +17,7 @@ export interface ViewerModalData {
     readonly title?: string;
     /**
      * Optional second URL used by the Download link in the header.
-     * F.7a's VFS endpoint serves the same file with a different
+     * The VFS viewer endpoint serves the same file with a different
      * Content-Disposition based on `?disposition=`, so the inline
      * preview and the download button typically point at slightly
      * different URLs (one inline, one attachment).
